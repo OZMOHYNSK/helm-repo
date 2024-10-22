@@ -16,6 +16,15 @@ fullnameOverride: ""
 
 namespace: aiwa-app
 
+labels:
+  app: aiwa-app
+
+selectorLabels:
+  app: aiwa-app
+
+podLabels:
+  app: aiwa-app
+  
 # serviceAccount:
 #   # Specifies whether a service account should be created
 #   create: true
